@@ -4,7 +4,7 @@ import rospy
 from std_msgs.msg import Float64
 from geometry_msgs.msg import Vector3
 from Adafruit_BNO055 import BNO055
-
+#Keith found this
 bno = BNO055.BNO055(serial_port='/dev/serial0', rst=18)
 
 pwm_offset_ms = 0
